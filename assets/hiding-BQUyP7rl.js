@@ -1,0 +1,1 @@
+import{i as l}from"./TableCore-Y75h2oha.js";const a=({icon:n}={})=>({id:"hiding",getItems:({column:e,table:o,icons:t})=>{const i=e.getVisibilityAction("columnMenu");return i?[{id:i.id,label:i.label,icon:l(n,t,"hide"),disabledReason:i.disabledReason,onClick:()=>o.applyVisibilityAction(i)}]:[]}});export{a as h};

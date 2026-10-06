@@ -1,0 +1,4 @@
+import{j as t}from"./jsx-runtime-Cnbe3ryz.js";import{useMDXComponents as n}from"./index-cWuaGVWk.js";import{M as r}from"./index-BWck6PEV.js";import{a}from"./types-reference-CMrm5GSt.js";import"./index-3dRrDZpt.js";import"./iframe-CxMQY-6g.js";import"./index-C0mjCMcL.js";import"./index-DKTdOcjh.js";import"./index-DgH-xKnr.js";import"./index-Bhqu_tAV.js";import"./places-Dp9r7e0L.js";import"./styles-HzBmg0bt.js";function s(e){const o={h1:"h1",p:"p",...n(),...e.components};return t.jsxs(t.Fragment,{children:[t.jsx(r,{title:"Tables/Table Core/Types/Headless"}),`
+`,t.jsx(o.h1,{id:"table-core--headless-types",children:"Table Core · headless types"}),`
+`,t.jsx(o.p,{children:"The state, the column options and the places — what the table does, whatever draws it. A–Z; the list on the right jumps to a type."}),`
+`,t.jsx(a,{page:"headless"})]})}function M(e={}){const{wrapper:o}={...n(),...e.components};return o?t.jsx(o,{...e,children:t.jsx(s,{...e})}):s(e)}export{M as default};

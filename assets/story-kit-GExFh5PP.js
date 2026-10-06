@@ -1,0 +1,1 @@
+const s=(r,e)=>{const a=e.parameters??{};return{...e,render:r.render,args:{...r.args,...e.args},argTypes:{...r.argTypes,...e.argTypes},parameters:{...r.parameters,...a,docs:{...r.parameters.docs,...a.docs}}}};export{s as w};
