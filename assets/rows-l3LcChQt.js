@@ -1,0 +1,1 @@
+import{C as r}from"./products-CTiDOXRn.js";const a=["High","Medium","Low"],d=o=>r(o).map((e,s)=>{const t=Number(e.start.slice(5,7));return{...e,period:`Q${Math.ceil(t/3)} ${e.start.slice(0,4)}`,priority:a[s*2%3],rank:s*7%o+1}}),m={ok:"Included",blocked:"Blocked",excluded:"Excluded"};export{a as P,m as S,d as m};

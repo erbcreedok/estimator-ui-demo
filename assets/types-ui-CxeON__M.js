@@ -1,0 +1,4 @@
+import{j as e}from"./products-CTiDOXRn.js";import{useMDXComponents as s}from"./index-DTba5wnT.js";import{M as r}from"./index-DCltYdiS.js";import{T as m}from"./types-reference-BUUdk-hb.js";import"./iframe-CiaHYEQr.js";import"./index-DgH-xKnr.js";import"./index-Bhqu_tAV.js";function n(t){const o={em:"em",h1:"h1",p:"p",...s(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Tables/Table Core/Types/UI"}),`
+`,e.jsx(o.h1,{id:"table-core--ui-types",children:"Table Core · UI types"}),`
+`,e.jsxs(o.p,{children:["The parts the table draws and how to change them: slots, toolbar buttons, the column menu, the theme. A–Z; the list on the right jumps to a type. The pieces are MUI components — see ",e.jsx(o.em,{children:"React & MUI"}),"."]}),`
+`,e.jsx(m,{page:"ui"})]})}function x(t={}){const{wrapper:o}={...s(),...t.components};return o?e.jsx(o,{...t,children:e.jsx(n,{...t})}):n(t)}export{x as default};

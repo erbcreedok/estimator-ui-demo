@@ -1,0 +1,20 @@
+import{j as e,T as s}from"./products-CTiDOXRn.js";import{useMDXComponents as r}from"./index-DTba5wnT.js";import{M as a}from"./index-DCltYdiS.js";import{S as l}from"./toolbar-status-bar.stories-DS6lQN5L.js";import{S as i}from"./scene-list-DGvAMnq_.js";import"./iframe-CiaHYEQr.js";import"./index-DgH-xKnr.js";import"./index-Bhqu_tAV.js";import"./rows-l3LcChQt.js";function o(n){const t={code:"code",em:"em",h1:"h1",h2:"h2",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...r(),...n.components};return e.jsxs(e.Fragment,{children:[e.jsx(a,{title:"Tables/Table Core/Features/Drafts/Toolbar & Status bar/Overview"}),`
+`,e.jsx(t.h1,{id:"toolbar--status-bar",children:"Toolbar & Status bar"}),`
+`,e.jsx(t.p,{children:"Buttons above the table to manage grouping, sorting and columns, and chips below it that show what is applied. Both are simple components the screen places; v9 has neither."}),`
+`,e.jsx(t.h2,{id:"turn-it-on",children:"Turn it on"}),`
+`,e.jsx(t.pre,{children:e.jsx(t.code,{className:"language-tsx",children:`<TableCore
+  features={features} columns={columns} data={rows} getRowId={…}
+  toolbar={(table) => <TableToolbar table={table} controls={[groupingControl(), sortingControl(), columnsControl()]} />}
+  statusBar={(table) => <TableStatusBar table={table} />}
+/>
+`})}),`
+`,e.jsx(t.p,{children:"Without the regions there is nothing above or below the table."}),`
+`,e.jsx(t.h2,{id:"what-you-can-set",children:"What you can set"}),`
+`,e.jsxs(t.ul,{children:[`
+`,e.jsxs(t.li,{children:[e.jsx(t.strong,{children:e.jsx(t.code,{children:"TableToolbar"})}),": ",e.jsx(t.code,{children:"controls"})," — the buttons, in order (",e.jsx(t.code,{children:"groupingControl"}),", ",e.jsx(t.code,{children:"sortingControl"}),", ",e.jsx(t.code,{children:"columnsControl"})," and the screen’s own ",e.jsx(t.code,{children:"{ id, label, icon, renderPanel }"}),"), and ",e.jsx(t.code,{children:"start"})," / ",e.jsx(t.code,{children:"end"})," — content before and after them. A button whose feature has nothing to offer is hidden."]}),`
+`,e.jsxs(t.li,{children:[e.jsx(t.strong,{children:e.jsx(t.code,{children:"TableStatusBar"})}),': one chip per feature — the column name, or "N Sorts" / "N Groups"; a chip opens the same panel. ',e.jsx(t.em,{children:"Clear all"})," (on hover) removes the user’s sorts and groupings. With nothing applied the bar is gone, unless the screen passes an ",e.jsx(t.code,{children:"adornment"}),"."]}),`
+`,e.jsxs(t.li,{children:[e.jsx(t.strong,{children:"Panels"}),": what is applied on top (direction, remove, ⋮⋮ to reorder), then the columns to add, with search."]}),`
+`]}),`
+`,e.jsx(i,{of:[l]}),`
+`,e.jsx(t.h2,{id:"reference",children:"Reference"}),`
+`,e.jsx(s,{headers:["Where","Name","What it does"],rows:[{id:"0",cells:{Where:"table",Name:"`toolbar`, `statusBar`, `bulkBar`","What it does":"Regions: `(table) => <… table={table} />`; leave one out and that place is not there."}},{id:"1",cells:{Where:"toolbar",Name:"`<TableToolbar controls start end />`","What it does":"The buttons, in order, and content before and after them."}},{id:"2",cells:{Where:"toolbar",Name:"`groupingControl()`, `sortingControl()`, `columnsControl()`","What it does":"The built-in buttons; each takes `{ icon, panelIcons }`."}},{id:"3",cells:{Where:"toolbar",Name:"`{ id, label, icon, renderPanel, isHidden }`","What it does":"A button of your own and the panel it opens."}},{id:"4",cells:{Where:"status bar",Name:"`<TableStatusBar chips adornment />`","What it does":"One chip per feature; `adornment` is shown after them and keeps the bar visible."}},{id:"5",cells:{Where:"status bar",Name:"`sortingChip()`, `groupingChip()`, `defaultStatusChips()`","What it does":"The built-in chips; a chip opens the same panel as its button."}},{id:"6",cells:{Where:"panels",Name:"`SortingPanel`, `GroupingPanel`, `ColumnsPanel`","What it does":"Call v9’s `setSorting`, `setGrouping`, `column.toggleVisibility` and `pin`."}}]})]})}function j(n={}){const{wrapper:t}={...r(),...n.components};return t?e.jsx(t,{...n,children:e.jsx(o,{...n})}):o(n)}export{j as default};

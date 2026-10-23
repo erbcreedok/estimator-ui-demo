@@ -1,0 +1,10 @@
+import{j as e}from"./products-CTiDOXRn.js";import{useMDXComponents as o}from"./index-DTba5wnT.js";import{M as r}from"./index-DCltYdiS.js";import{B as a}from"./bare.stories-Do-aKT_d.js";import{S as i}from"./scene-list-DGvAMnq_.js";import"./iframe-CiaHYEQr.js";import"./index-DgH-xKnr.js";import"./index-Bhqu_tAV.js";function n(s){const t={code:"code",h1:"h1",p:"p",pre:"pre",...o(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Tables/Table Core/Features/Bare table/Overview"}),`
+`,e.jsx(t.h1,{id:"bare-table",children:"Bare table"}),`
+`,e.jsxs(t.p,{children:["A table with no features: its rows and its header. Nothing is selected, nothing opens, nothing sorts; the roles are a native table’s (",e.jsx(t.code,{children:"table"}),", ",e.jsx(t.code,{children:"cell"}),"), no cell is a Tab stop, and the keys do nothing."]}),`
+`,e.jsx(t.pre,{children:e.jsx(t.code,{className:"language-tsx",children:`const features = tableFeatures({})
+
+<TableCore features={features} data={rows} columns={columns} getRowId={(r) => r.id} />
+`})}),`
+`,e.jsxs(t.p,{children:[e.jsx(t.code,{children:"TableCore"})," itself adds one thing a feature may use: the prop getters (",e.jsx(t.code,{children:"table.getGridProps"}),", ",e.jsx(t.code,{children:"cell.getCellProps"})," …) through which the features put attributes and handlers on the grid and its cells. A bare table says nothing through them."]}),`
+`,e.jsxs(t.p,{children:["The type of the table is v9’s ",e.jsx(t.code,{children:"Table<typeof features, TData>"}),": with no features it has no ",e.jsx(t.code,{children:"getFocusedCell"}),", no ",e.jsx(t.code,{children:"startEditing"}),", no ",e.jsx(t.code,{children:"getSortedRowModel"}),"; calling one is a compile error, not a crash. A column of a bare table cannot say its ",e.jsx(t.code,{children:"size"})," either: that is ",e.jsx(t.code,{children:"columnSizingFeature"}),"’s."]}),`
+`,e.jsx(i,{of:[a]})]})}function j(s={}){const{wrapper:t}={...o(),...s.components};return t?e.jsx(t,{...s,children:e.jsx(n,{...s})}):n(s)}export{j as default};

@@ -1,0 +1,4 @@
+import{j as e}from"./products-CTiDOXRn.js";import{useMDXComponents as n}from"./index-DTba5wnT.js";import{M as a}from"./index-DCltYdiS.js";import{T as r}from"./types-reference-BUUdk-hb.js";import"./iframe-CiaHYEQr.js";import"./index-DgH-xKnr.js";import"./index-Bhqu_tAV.js";function o(t){const s={h1:"h1",p:"p",...n(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(a,{title:"Tables/Table Core/Types/Headless"}),`
+`,e.jsx(s.h1,{id:"table-core--headless-types",children:"Table Core · headless types"}),`
+`,e.jsx(s.p,{children:"What a column and the table say to our features, and the state they keep — what the table does, whatever draws it. A–Z; the list on the right jumps to a type."}),`
+`,e.jsx(r,{page:"headless"})]})}function u(t={}){const{wrapper:s}={...n(),...t.components};return s?e.jsx(s,{...t,children:e.jsx(o,{...t})}):o(t)}export{u as default};

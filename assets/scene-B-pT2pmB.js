@@ -1,0 +1,1 @@
+import{r as l,A as m,j as R,S as x,ah as S}from"./products-CTiDOXRn.js";const j=({hint:a,table:n,count:c=8,tall:p=!1})=>{const[i,r]=l.useState(()=>m(c));return R.jsx(x,{hint:a,fit:p?"scroll":"content",children:n({rows:i,onEdit:(e,s,o)=>r(d=>d.map(t=>t.id===e?{...t,[s]:o}:t)),onRowsReorder:e=>r(s=>S(s,e,o=>o.id))})})};export{j as S};

@@ -1,0 +1,10 @@
+import{j as e,D as n}from"./products-CTiDOXRn.js";import{useMDXComponents as a}from"./index-DTba5wnT.js";import{M as r}from"./index-DCltYdiS.js";import"./iframe-CiaHYEQr.js";import"./index-DgH-xKnr.js";import"./index-Bhqu_tAV.js";function o(t){const s={h1:"h1",li:"li",p:"p",ul:"ul",...a(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Tables/Table Core/Concepts/Overview"}),`
+`,e.jsx(s.h1,{id:"concepts",children:"Concepts"}),`
+`,e.jsx(s.p,{children:"How Table Core is drawn and how a screen changes what it draws. A feature page tells what the user sees and does; a concept is the mechanism behind several features, for the frontend engineer."}),`
+`,e.jsxs(s.ul,{children:[`
+`,e.jsxs(s.li,{children:[e.jsx(n,{page:"tables-table-core-concepts-icons--all-icons",children:"Icons"})," — every icon of the table, with its size and colour to play with. The ",e.jsx(n,{page:"tables-table-core-concepts-icons-guide--docs",children:"Icons guide"})," says where each one is drawn and how to change it there."]}),`
+`,e.jsxs(s.li,{children:[e.jsx(n,{page:"tables-table-core-features-drafts-themes-overview--docs",children:"Themes"})," — the look of the table as a plain object of tokens."]}),`
+`,e.jsxs(s.li,{children:[e.jsx(n,{page:"tables-table-core-primitives-overview--docs",children:"Primitives"})," — the parts the table is drawn with, and how to replace one or assemble a table from them."]}),`
+`,e.jsxs(s.li,{children:[e.jsx(n,{page:"tables-table-core-concepts-when-rows-and-groups-change-place-overview--docs",children:"When rows and groups change place"})," — why a group jumps or leaves the window, and the ways to deal with it by case."]}),`
+`,e.jsxs(s.li,{children:[e.jsx(n,{page:"tables-table-core-concepts-recipes-overview--docs",children:"Recipes"})," — tasks of a screen solved with the table’s own state and options: saved views, limits of the sorts."]}),`
+`]})]})}function w(t={}){const{wrapper:s}={...a(),...t.components};return s?e.jsx(s,{...t,children:e.jsx(o,{...t})}):o(t)}export{w as default};
